@@ -4,7 +4,7 @@
         <form class="form-container">
             <input type="text" name="" id="">
             <button type="submit">
-                <img src="../assets/icon-arrow.svg" alt="arrow icon"/>
+                <img src="../../assets/icon-arrow.svg" alt="arrow icon"/>
             </button>
         </form>
     </header>

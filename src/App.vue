@@ -1,18 +1,22 @@
 <template>
   <div id="container">
     <Header />
+    <Info />
+    <Map />
   </div>
-  <!-- <img alt="Vue logo" src="./assets/logo.png"> !-->
-  <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> !-->
 </template>
 
 <script>
-import Header from './components/Header'
+import Header from './components/Header/Header';
+import Map from './components/Map/Map';
+import Info from './components/Info/Info';
 
 export default {
   name: 'App',
   components: {
     Header,
+    Map,
+    Info,
   }
 }
 </script>

@@ -1,0 +1,23 @@
+.info-wrapper {
+    position: absolute;
+    top: 22vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.info {
+    background: #fff;
+    width: 90%;
+    height: 115px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 12px #333333;
+    margin: 0 auto !important;
+}
+
+@media(min-width: 1024px) {
+    .info {
+        width: 60%;
+    }
+}

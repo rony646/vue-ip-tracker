@@ -5,12 +5,12 @@
     justify-content: center;
     height: 26vh;
     /* background: green; */
-    background-image: url(../assets/pattern-bg.png);
+    background-image: url(../../assets/pattern-bg.png);
     background-size: cover;
 }
 
 .header-container > h1 {
-    margin-bottom: 3.5rem;
+    margin-bottom: 1rem;
     color: #f0eeee;
 }
 
@@ -53,4 +53,10 @@
 
 .form-container > button:hover {
     background: #252525;
+}
+
+@media(max-width: 768px) {
+    .form-container {
+        width: 90%;
+    }
 }

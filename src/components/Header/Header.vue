@@ -2,7 +2,7 @@
     <header class="header-container">
         <h1>IP Adress Tracker</h1>
         <form class="form-container">
-            <input type="text" name="" id="">
+            <input type="text" name="ip" id="ip-input" v-model="ip">
             <button type="submit">
                 <img src="../../assets/icon-arrow.svg" alt="arrow icon"/>
             </button>
@@ -13,6 +13,18 @@
 <script>
 export default {
    name: 'Header',
+   computed: {
+      ip: {
+          get () {
+              return this.$store.state.ip
+          },
+          set (value) {
+              console.log('ENTREI')
+              this.$store.commit('updateIp', value)
+          }
+      }
+   },
+   
 }
 </script>
 

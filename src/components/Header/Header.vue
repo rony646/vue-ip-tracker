@@ -19,7 +19,6 @@ export default {
               return this.$store.state.ip
           },
           set (value) {
-              console.log('ENTREI')
               this.$store.commit('updateIp', value)
           }
       }
